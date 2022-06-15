@@ -1,0 +1,1 @@
+/// <reference types="lit-element/lit-element" />

@@ -1,0 +1,1 @@
+{"version":3,"file":"post.js","sourceRoot":"","sources":["../../../src/blog/post.ts"],"names":[],"mappings":"","sourcesContent":["export interface Post {\r\n  id: number;\r\n  title: string;\r\n  author: string;\r\n  description: string;\r\n}\r\n"]}
