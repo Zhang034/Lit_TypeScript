@@ -22,8 +22,8 @@ export class About extends LitElement {
     <input type="text" .value=${this.formData.num1} @input=${(e:any)=>{this.formData.num1 = Number(e.target.value) }}>
     <input type="text" .value=${this.formData.num2} @input=${(e:any)=>{this.formData.num2 = Number(e.target.value ) }}>
     </form>
-    <button @click=${this.addNum}>相加</button>
-    <button @click=${this.clean}>清除</button>
+    <button @click=${this.addNum}>Add</button>
+    <button @click=${this.clean}>Reset</button>
     <p>结果:${this.sum}</p>
     `;
   }
