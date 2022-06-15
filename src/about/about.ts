@@ -24,7 +24,7 @@ export class About extends LitElement {
     </form>
     <button @click=${this.addNum}>Add</button>
     <button @click=${this.clean}>Reset</button>
-    <p>结果:${this.sum}</p>
+    <p>Result:${this.sum}</p>
     `;
   }
   addNum():void{
